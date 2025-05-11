@@ -119,8 +119,8 @@
             cursor: pointer;
         }
 
-        /* Hero Section */
-        .hero {
+        /* Home Section */
+        .home {
             height: 100vh;
             display: flex;
             align-items: center;
@@ -129,44 +129,44 @@
             margin-top: 80px;
         }
 
-        .hero-content {
+        .home-content {
             width: 50%;
             padding-right: 2rem;
         }
 
-        .hero-image {
+        .home-image {
             width: 50%;
             display: flex;
             justify-content: center;
             position: relative;
         }
 
-        .hero-image img {
+        .home-image img {
             max-width: 100%;
             height: auto;
             border-radius: 20px;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
         }
 
-        .hero-subtitle {
+        .home-subtitle {
             color: var(--secondary-color);
             font-size: 1.2rem;
             font-weight: 600;
             margin-bottom: 1rem;
         }
 
-        .hero-title {
+        .home-title {
             font-size: 3.5rem;
             line-height: 1.2;
             margin-bottom: 1.5rem;
             color: var(--dark-color);
         }
 
-        .hero-title span {
+        .home-title span {
             color: var(--primary-color);
         }
 
-        .hero-description {
+        .home-description {
             font-size: 1.1rem;
             color: #6c757d;
             margin-bottom: 2rem;
@@ -587,24 +587,24 @@
         }
 
         @media screen and (max-width: 900px) {
-            .hero {
+            .home {
                 flex-direction: column;
                 height: auto;
                 padding: 5rem 5%;
             }
 
-            .hero-content,
-            .hero-image {
+            .home-content,
+            .home-image {
                 width: 100%;
                 padding-right: 0;
             }
 
-            .hero-content {
+            .home-content {
                 text-align: center;
                 margin-bottom: 3rem;
             }
 
-            .hero-title {
+            .home-title {
                 font-size: 2.8rem;
             }
 
@@ -717,16 +717,16 @@
         </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-        <div class="hero-content">
-            <p class="hero-subtitle">NEW SEASON ARRIVALS</p>
-            <h1 class="hero-title">Discover The Latest <span>Fashion Trends</span></h1>
-            <p class="hero-description">Elevate your style with our carefully curated collection of seasonal essentials. From casual to formal, we have everything you need to make a statement.</p>
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <p class="home-subtitle">NEW SEASON ARRIVALS</p>
+            <h1 class="home-title">Discover The Latest <span>Fashion Trends</span></h1>
+            <p class="home-description">Elevate your style with our carefully curated collection of seasonal essentials. From casual to formal, we have everything you need to make a statement.</p>
             <a href="#" class="btn">Shop Now</a>
             <a href="#" class="btn btn-secondary">Explore</a>
         </div>
-        <div class="hero-image">
+        <div class="home-image">
             <img src="shopping.png" alt="Fashion Model">
         </div>
     </section>
